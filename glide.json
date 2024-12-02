@@ -1,17 +1,1 @@
-{
-    "name": "Device Token Authorization",
-    "description": "Generates and validates device tokens for Glide users.",
-    "parameters": [
-        {
-            "name": "deviceToken",
-            "type": "string"
-        }
-    ],
-    "result": {
-        "type": "object",
-        "properties": {
-            "token": { "type": "string" },
-            "isAuthorized": { "type": "boolean" }
-        }
-    }
-}
+{"name":"Device Token Authorization","description":"Generates and validates device tokens for Glide users.","parameters":[{"name":"deviceToken","type":"string"}],"result":{"type":"object","properties":{"token":{"type":"string"},"isAuthorized":{"type":"boolean"}}}}
